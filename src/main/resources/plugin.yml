@@ -1,6 +1,6 @@
 name: NinetyFivePercentTP
 version: @version@
-main: xyz.tehbrian.ninetyfivepercenttp.Ninetyfivepercenttp
+main: xyz.tehbrian.ninetyfivepercenttp.NinetyFivePercentTP
 api-version: 1.16
 authors: [ TehBrian ]
 description: A random teleport plugin that you should not use.
