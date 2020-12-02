@@ -3,7 +3,7 @@ import org.apache.tools.ant.filters.ReplaceTokens
 apply plugin: 'java'
 
 group = 'xyz.tehbrian'
-version = '1.0-SNAPSHOT'
+version = '1.0.0'
 
 sourceCompatibility = '11'
 targetCompatibility = '11'
