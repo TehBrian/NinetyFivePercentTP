@@ -1,0 +1,16 @@
+name: NinetyFivePercentTP
+version: @version@
+main: xyz.tehbrian.ninetyfivepercenttp.Ninetyfivepercenttp
+api-version: 1.16
+authors: [ TehBrian ]
+description: A random teleport plugin that you should not use.
+website: https://github.com/ItsTehBrian/NinetyFivePercentTP
+commands:
+  rtp:
+    description: "Randomly teleports you somewhere."
+    permission: ninetyfivepercenttp.rtp
+    usage: <command>
+permissions:
+  ninetyfivepercenttp.rtp:
+    description: "Permission to use /rtp."
+    default: true
