@@ -1,0 +1,5 @@
+# The farthest a person can be teleported away from the origin in blocks.
+bound: 5000
+origin:
+  x: 0
+  z: 0

@@ -7,6 +7,8 @@ public final class NinetyFivePercentTP extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getCommand("rtp").setExecutor(new RTPCommand());
+        saveDefaultConfig();
+
+        getCommand("rtp").setExecutor(new RTPCommand(this));
     }
 }
