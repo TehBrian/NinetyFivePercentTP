@@ -37,7 +37,7 @@ public class RTPCommand implements CommandExecutor {
             int y = world.getHighestBlockAt(x, z).getY();
             Location location = new Location(world, x, y, z);
 
-            player.teleport(location);
+            player.teleportAsync(location);
             // Now, was that so hard?
         }
         return true;
